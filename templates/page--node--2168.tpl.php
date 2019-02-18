@@ -154,14 +154,7 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-      <select id="translators" >
-      <option>Choose...</option>
-      <?php foreach ($translatorlist as $translator) {
-		print "<option value='$translator'>$translator</option>";      
-      }
-      ?>
-      </select>
-      <button role="button" id="addtranslator">Add This</button>
+
       <div id="bookswrapper"></div>
       
       
